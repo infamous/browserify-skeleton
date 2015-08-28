@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cssify": "^0.6.0",
+    "famous": "^0.3.4",
+    "famousify": "^0.1.5",
+    "infamous": "git+https://github.com/infamous/infamous.git#master"
+  },
+  "browserify": {
+    "transform": [
+      "famousify",
+      "cssify"
+    ]
+  }
+}
